@@ -46,72 +46,72 @@ Below is a comparison of leading commercial SaaS platforms offering serverless i
 
 ## 🔓 Open-Source GitHub Projects
 
-Sorted descending by GitHub star count ⭐.
+Sorted descending by GitHub Stars_Count ⭐.
 
-1. **[Apache Spark](https://github.com/apache/spark)** [![GitHub stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)  
+1. **[Apache Spark](https://github.com/apache/spark)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)  
    Unified engine for large-scale data processing and SQL analytics over big data.
 
-2. **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** [![GitHub stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)  
+2. **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** [![GitHub_Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)  
    High-performance open-source columnar analytical database for real-time SQL queries.
 
-3. **[Polars](https://github.com/pola-rs/polars)** [![GitHub stars](https://img.shields.io/github/stars/pola-rs/polars?style=social&color=white)](https://github.com/pola-rs/polars/stargazers)  
+3. **[Polars](https://github.com/pola-rs/polars)** [![GitHub_Stars](https://img.shields.io/github/stars/pola-rs/polars?style=social&color=white)](https://github.com/pola-rs/polars/stargazers)  
    Lightning-fast DataFrame library written in Rust with lazy query evaluation.
 
-4. **[DuckDB](https://github.com/duckdb/duckdb)** [![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
+4. **[DuckDB](https://github.com/duckdb/duckdb)** [![GitHub_Stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
    In-process analytical SQL database engine designed for local and embedded analytics ("SQLite for OLAP").
 
-5. **[PrestoDB](https://github.com/prestodb/presto)** [![GitHub stars](https://img.shields.io/github/stars/prestodb/presto?style=social&color=white)](https://github.com/prestodb/presto/stargazers)  
+5. **[PrestoDB](https://github.com/prestodb/presto)** [![GitHub_Stars](https://img.shields.io/github/stars/prestodb/presto?style=social&color=white)](https://github.com/prestodb/presto/stargazers)  
    Distributed SQL query engine for big data, original project initiated at Facebook.
 
-6. **[Apache Arrow](https://github.com/apache/arrow)** [![GitHub stars](https://img.shields.io/github/stars/apache/arrow?style=social&color=white)](https://github.com/apache/arrow/stargazers)  
+6. **[Apache Arrow](https://github.com/apache/arrow)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/arrow?style=social&color=white)](https://github.com/apache/arrow/stargazers)  
    Development platform for in-memory analytics with language-independent columnar memory format.
 
-7. **[Apache Doris](https://github.com/apache/doris)** [![GitHub stars](https://img.shields.io/github/stars/apache/doris?style=social&color=white)](https://github.com/apache/doris/stargazers)  
+7. **[Apache Doris](https://github.com/apache/doris)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/doris?style=social&color=white)](https://github.com/apache/doris/stargazers)  
    Real-time analytical database based on MPP architecture for fast sub-second SQL responses.
 
-8. **[Apache Druid](https://github.com/apache/druid)** [![GitHub stars](https://img.shields.io/github/stars/apache/druid?style=social&color=white)](https://github.com/apache/druid/stargazers)  
+8. **[Apache Druid](https://github.com/apache/druid)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/druid?style=social&color=white)](https://github.com/apache/druid/stargazers)  
    High-performance real-time analytics database built for streaming and batch event data.
 
-9. **[Trino](https://github.com/trinodb/trino)** [![GitHub stars](https://img.shields.io/github/stars/trinodb/trino?style=social&color=white)](https://github.com/trinodb/trino/stargazers)  
+9. **[Trino](https://github.com/trinodb/trino)** [![GitHub_Stars](https://img.shields.io/github/stars/trinodb/trino?style=social&color=white)](https://github.com/trinodb/trino/stargazers)  
    De facto open-source fast distributed SQL query engine for federated queries across 50+ data sources.
 
-10. **[StarRocks](https://github.com/StarRocks/starrocks)** [![GitHub stars](https://img.shields.io/github/stars/StarRocks/starrocks?style=social&color=white)](https://github.com/StarRocks/starrocks/stargazers)  
+10. **[StarRocks](https://github.com/StarRocks/starrocks)** [![GitHub_Stars](https://img.shields.io/github/stars/StarRocks/starrocks?style=social&color=white)](https://github.com/StarRocks/starrocks/stargazers)  
     Next-generation sub-second MPP analytical database for real-time lakehouse analytics.
 
-11. **[Delta Lake](https://github.com/delta-io/delta)** [![GitHub stars](https://img.shields.io/github/stars/delta-io/delta?style=social&color=white)](https://github.com/delta-io/delta/stargazers)  
+11. **[Delta Lake](https://github.com/delta-io/delta)** [![GitHub_Stars](https://img.shields.io/github/stars/delta-io/delta?style=social&color=white)](https://github.com/delta-io/delta/stargazers)  
     Open storage layer that brings ACID transactions and reliability to Apache Spark and big data workloads.
 
-12. **[Apache Iceberg](https://github.com/apache/iceberg)** [![GitHub stars](https://img.shields.io/github/stars/apache/iceberg?style=social&color=white)](https://github.com/apache/iceberg/stargazers)  
+12. **[Apache Iceberg](https://github.com/apache/iceberg)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/iceberg?style=social&color=white)](https://github.com/apache/iceberg/stargazers)  
     High-performance open table format for huge analytical datasets supporting time travel & schema evolution.
 
-13. **[Apache DataFusion](https://github.com/apache/datafusion)** [![GitHub stars](https://img.shields.io/github/stars/apache/datafusion?style=social&color=white)](https://github.com/apache/datafusion/stargazers)  
+13. **[Apache DataFusion](https://github.com/apache/datafusion)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/datafusion?style=social&color=white)](https://github.com/apache/datafusion/stargazers)  
     Extensible, fast, in-memory Rust SQL query engine foundation built on Apache Arrow.
 
-14. **[Apache Pinot](https://github.com/apache/pinot)** [![GitHub stars](https://img.shields.io/github/stars/apache/pinot?style=social&color=white)](https://github.com/apache/pinot/stargazers)  
+14. **[Apache Pinot](https://github.com/apache/pinot)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/pinot?style=social&color=white)](https://github.com/apache/pinot/stargazers)  
     Real-time distributed OLAP datastore designed for low-latency user-facing analytics.
 
-15. **[Apache Hive](https://github.com/apache/hive)** [![GitHub stars](https://img.shields.io/github/stars/apache/hive?style=social&color=white)](https://github.com/apache/hive/stargazers)  
+15. **[Apache Hive](https://github.com/apache/hive)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/hive?style=social&color=white)](https://github.com/apache/hive/stargazers)  
     Data warehouse software facilitating reading, writing, and managing large datasets residing in distributed storage.
 
-16. **[Apache Hudi](https://github.com/apache/hudi)** [![GitHub stars](https://img.shields.io/github/stars/apache/hudi?style=social&color=white)](https://github.com/apache/hudi/stargazers)  
+16. **[Apache Hudi](https://github.com/apache/hudi)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/hudi?style=social&color=white)](https://github.com/apache/hudi/stargazers)  
     Transactional data lake platform bringing stream processing capabilities to data lakes.
 
-17. **[Apache Calcite](https://github.com/apache/calcite)** [![GitHub stars](https://img.shields.io/github/stars/apache/calcite?style=social&color=white)](https://github.com/apache/calcite/stargazers)  
+17. **[Apache Calcite](https://github.com/apache/calcite)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/calcite?style=social&color=white)](https://github.com/apache/calcite/stargazers)  
     Dynamic data management framework featuring SQL parsing, optimization, and relational algebra.
 
-18. **[Apache Impala](https://github.com/apache/impala)** [![GitHub stars](https://img.shields.io/github/stars/apache/impala?style=social&color=white)](https://github.com/apache/impala/stargazers)  
+18. **[Apache Impala](https://github.com/apache/impala)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/impala?style=social&color=white)](https://github.com/apache/impala/stargazers)  
     Native MPP SQL query engine for Apache Hadoop providing low-latency queries on HDFS & Kudu.
 
-19. **[Apache Drill](https://github.com/apache/drill)** [![GitHub stars](https://img.shields.io/github/stars/apache/drill?style=social&color=white)](https://github.com/apache/drill/stargazers)  
+19. **[Apache Drill](https://github.com/apache/drill)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/drill?style=social&color=white)](https://github.com/apache/drill/stargazers)  
     Schema-free SQL query engine for Hadoop, NoSQL, and cloud storage systems.
 
-20. **[Project Nessie](https://github.com/projectnessie/nessie)** [![GitHub stars](https://img.shields.io/github/stars/projectnessie/nessie?style=social&color=white)](https://github.com/projectnessie/nessie/stargazers)  
+20. **[Project Nessie](https://github.com/projectnessie/nessie)** [![GitHub_Stars](https://img.shields.io/github/stars/projectnessie/nessie?style=social&color=white)](https://github.com/projectnessie/nessie/stargazers)  
     Transactional catalog for Data Lakes offering Git-like branch and merge operations for Iceberg tables.
 
-21. **[Apache Kyuubi](https://github.com/apache/kyuubi)** [![GitHub stars](https://img.shields.io/github/stars/apache/kyuubi?style=social&color=white)](https://github.com/apache/kyuubi/stargazers)  
+21. **[Apache Kyuubi](https://github.com/apache/kyuubi)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/kyuubi?style=social&color=white)](https://github.com/apache/kyuubi/stargazers)  
     Distributed multi-tenant SQL gateway for data lakes running Spark, Flink, and Trino.
 
-22. **[Substrait](https://github.com/substrait-io/substrait)** [![GitHub stars](https://img.shields.io/github/stars/substrait-io/substrait?style=social&color=white)](https://github.com/substrait-io/substrait/stargazers)  
+22. **[Substrait](https://github.com/substrait-io/substrait)** [![GitHub_Stars](https://img.shields.io/github/stars/substrait-io/substrait?style=social&color=white)](https://github.com/substrait-io/substrait/stargazers)  
     Cross-language, standardized relational algebra query plan specification.
 
 ---
