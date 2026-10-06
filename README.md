@@ -1,287 +1,147 @@
-# Awesome-Serverless-Interactive-Query-Service
-
-## Top Serverless Interactive Query Service Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Federated SQL Queries, Data Lake Analytics & Self-Hosted Query Engines*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial interactive query platforms** and **open-source projects** that let analysts run SQL across data lakes, warehouses, and databases without managing infrastructure. These tools range from serverless query engines like Athena to full data warehouse platforms.
-
-
-
-**Examples** include Amazon Athena, Snowflake, Google Cloud BigQuery, Databricks SQL, Starburst Galaxy, Dremio Cloud, Ahana Cloud for Presto, PrestoDB Cloud, Trino Cloud, and ClickHouse Cloud (the category leaders).
-
-
-
-**Open-source emphasis**: Interactive query is one of the strongest open-source domains. **Trino** leads as the de facto federated SQL engine, **Apache Spark** powers large-scale analytics, **DuckDB** brings in-process OLAP, and **ClickHouse** dominates real-time analytical queries. **Apache Doris** and **StarRocks** offer real-time analytics, while **DataFusion** and **Polars** provide Rust-based query foundations. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Amazon Athena](https://aws.amazon.com/athena/)**  
-
-  **AWS's serverless interactive query service** — run SQL on S3 data lake without infrastructure . **Pay per query** — $5 per TB scanned . **Best for ad-hoc S3 analytics** .
-
-
-
-- **[Snowflake](https://www.snowflake.com/)**  
-
-  **The leading cloud data warehouse** — separate compute and storage, multi-cluster warehouses, and data sharing . **The reference for cloud data warehousing** . **Best for enterprise analytics** .
-
-
-
-- **[Google Cloud BigQuery](https://cloud.google.com/bigquery)**  
-
-  **Google's serverless data warehouse** — petabyte-scale SQL analytics with built-in ML . **Best for GCP-native analytics** .
-
-
-
-- **[Databricks SQL](https://www.databricks.com/)**  
-
-  **Lakehouse SQL analytics** — query Delta Lake, Parquet, and Iceberg with Photon engine . **Best for lakehouse analytics** .
-
-
-
-- **[Starburst Galaxy](https://www.starburst.io/)**  
-
-  **Managed Trino platform** — federated queries across data sources . **Best for data mesh and federation** .
-
-
-
-- **[Dremio Cloud](https://www.dremio.com/)**  
-
-  **Lakehouse query engine** — Apache Arrow-based with semantic layer . **Best for lakehouse analytics** .
-
-
-
-- **[Ahana Cloud for Presto](https://ahana.io/)**  
-
-  **Managed Presto** (acquired by IBM) — SQL analytics on data lakes . **Best for Presto users** .
-
-
-
-- **[ClickHouse Cloud](https://clickhouse.com/)**  
-
-  **The leading analytical database** — columnar storage, real-time ingestion, and sub-second queries . **Best for real-time analytics** .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Federated Query Engines
-
-
-
-- **[Trino](https://github.com/trinodb/trino)**  
-
-  **The de facto open-source federated SQL engine**, Apache-2.0 licensed with **10,000+ GitHub stars** . **Query across 50+ data sources** — Hive, Iceberg, Delta Lake, PostgreSQL, MySQL, Kafka, and more . **Massively parallel processing** — scales to thousands of nodes . **The reference for interactive analytics on data lakes** . **Best for federated queries across heterogeneous sources** .
-
-
-
-- **[PrestoDB](https://github.com/prestodb/presto)**  
-
-  **The original Presto SQL engine**, Apache-2.0 licensed with **16,000+ GitHub stars** . **The predecessor to Trino** — created at Facebook . **Best for existing Presto deployments** .
-
-
-
-- **[Apache Hive](https://github.com/apache/hive)**  
-
-  **Data warehouse software for Hadoop**, Apache-2.0 licensed . **SQL-like query language for large datasets** . **The original big data SQL engine** . **Best for Hadoop ecosystems** .
-
-
-
-- **[Apache Impala](https://github.com/apache/impala)**  
-
-  **MPP SQL query engine for Hadoop**, Apache-2.0 licensed . **Low-latency queries on HDFS and Kudu** . **Best for Hadoop-native analytics** .
-
-
-
-- **[Apache Drill](https://github.com/apache/drill)**  
-
-  **Schema-free SQL query engine**, Apache-2.0 licensed . **Query JSON, Parquet, and NoSQL without schemas** . **Best for schema-less data exploration** .
-
-
-
-### Analytical Databases
-
-
-
-- **[ClickHouse](https://github.com/ClickHouse/ClickHouse)**  
-
-  **The leading columnar analytical database**, Apache-2.0 licensed with **35,000+ GitHub stars** . **Real-time ingestion and sub-second queries** . **The best open-source alternative to data warehouses** . **Best for large-scale analytics and observability** .
-
-
-
-- **[Apache Doris](https://github.com/apache/doris)**  
-
-  **Real-time analytical database**, Apache-2.0 licensed with **12,000+ GitHub stars** . **High-performance SQL analytics** . **Best for real-time analytics** .
-
-
-
-- **[StarRocks](https://github.com/StarRocks/starrocks)**  
-
-  **High-performance analytical database**, Apache-2.0 licensed with **8,000+ GitHub stars** . **Real-time analytics with lakehouse integration** . **Best for modern analytics** .
-
-
-
-- **[Apache Druid](https://github.com/apache/druid)**  
-
-  **Real-time analytics database**, Apache-2.0 licensed with **13,000+ GitHub stars** . **Sub-second queries on streaming data** . **Best for real-time analytics** .
-
-
-
-- **[Apache Pinot](https://github.com/apache/pinot)**  
-
-  **Real-time distributed OLAP datastore**, Apache-2.0 licensed with **5,000+ GitHub stars** . **User-facing analytics** . **Best for real-time analytics at scale** .
-
-
-
-### In-Process & Embedded
-
-
-
-- **[DuckDB](https://github.com/duckdb/duckdb)**  
-
-  **In-process analytical database**, MIT licensed with **20,000+ GitHub stars** . **"SQLite for analytics"** — columnar storage with vectorized execution . **Runs inside your application** — no server . **The most exciting open-source analytical database** . **Best for embedded analytics and local data processing** .
-
-
-
-- **[Apache DataFusion](https://github.com/apache/datafusion)**  
-
-  **Extensible query engine in Rust**, Apache-2.0 licensed with **6,000+ GitHub stars** . **Arrow-native with SQL support** . **The foundation for many modern query engines** . **Best for building custom query engines** .
-
-
-
-- **[Polars](https://github.com/pola-rs/polars)**  
-
-  **Fast DataFrame library in Rust**, MIT licensed with **30,000+ GitHub stars** . **Multi-threaded, vectorized execution** . **The fastest DataFrame library** . **Best for data manipulation and analysis** .
-
-
-
-### Lakehouse & Table Formats
-
-
-
-- **[Apache Iceberg](https://github.com/apache/iceberg)**  
-
-  **Open table format for huge analytic datasets**, Apache-2.0 licensed with **6,000+ GitHub stars** . **Schema evolution, time travel, and hidden partitioning** . **The de facto standard for data lakes** . **Best for lakehouse architectures** .
-
-
-
-- **[Delta Lake](https://github.com/delta-io/delta)**  
-
-  **Open table format with ACID transactions**, Apache-2.0 licensed . **Reliable data lakes with schema enforcement** . **Best for Databricks and Spark** .
-
-
-
-- **[Apache Hudi](https://github.com/apache/hudi)**  
-
-  **Transactional data lake platform**, Apache-2.0 licensed . **Upserts, deletes, and incremental processing** . **Best for streaming data lakes** .
-
-
-
-- **[Project Nessie](https://github.com/projectnessie/nessie)**  
-
-  **Git-like version control for data lakes**, Apache-2.0 licensed . **Branch, merge, and version data** . **Best for data lake versioning** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Apache Calcite** — SQL parser and optimization framework .
-
-- **Apache Arrow** — Columnar in-memory format .
-
-- **Substrait** — Cross-platform query plan format .
-
-- **Apache Kyuubi** — Distributed SQL gateway .
-
-- **Apache Livy** — REST interface for Spark .
-
-- **Apache Zeppelin** — Notebook for data analytics .
-
-- **Jupyter** — Interactive computing .
-
-- **Metabase** — Open-source BI tool .
-
-- **Apache Superset** — Open-source BI and visualization .
-
-
-
-**Frameworks for building custom interactive query solutions**: Combine **Trino** for federated SQL across data sources . Use **ClickHouse** or **Apache Doris** for real-time analytical queries . Deploy **DuckDB** for embedded, in-process analytics . Choose **Apache Iceberg** for open table formats . Integrate **DataFusion** or **Polars** for custom query engines . Note that true serverless query services with managed infrastructure, automatic scaling, and vendor-supported SLAs (Athena, Snowflake, BigQuery, Databricks SQL) remain primarily commercial territory; open-source stacks provide strong federated query, analytical storage, and lakehouse foundations that require integration for complete analytics.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Interactive query services handle sensitive business data. Self-hosted solutions require proper security hardening, access controls, and compliance with data privacy regulations.
-
-- **License considerations**: Trino uses Apache-2.0, ClickHouse uses Apache-2.0, DuckDB uses MIT, and Polars uses MIT. All permissive for commercial use. Verify licensing against your use case before committing .
-
-- **Query performance depends on data layout** — columnar formats (Parquet, ORC, Arrow) and partition pruning are critical for performance. Design data storage accordingly .
-
-- **Federated queries introduce latency** — Trino and Presto query across multiple sources, which can be slower than native queries. Materialize frequently accessed data for performance .
-
-- The open-source ecosystem provides strong federated query, analytical storage, and lakehouse foundations, but **managed infrastructure, automatic scaling, and vendor-supported SLAs** remain primarily commercial offerings.
-
-
+# ⚡ Awesome Serverless Interactive Query Service
+
+![Awesome Serverless Interactive Query Service](assets/header-banner.svg)
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Serverless-Interactive-Query-Service/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Serverless-Interactive-Query-Service?style=flat-square&color=gold" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Serverless-Interactive-Query-Service/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Serverless-Interactive-Query-Service?style=flat-square" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Serverless-Interactive-Query-Service/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Serverless-Interactive-Query-Service?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 📌 Top Serverless Interactive Query Service Ecosystem
 
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on Federated SQL Queries, Data Lake Analytics & Self-Hosted Query Engines*  
 
-**Made for data engineers, analysts, and organizations seeking interactive query sovereignty.**  
+> **SEO Keywords**: Serverless Query Engine, Federated SQL, Interactive Analytics, Data Lake SQL, Cloud Data Warehouse, Trino, Athena, ClickHouse, DuckDB, BigQuery, Spark SQL, Polars, DataFusion, Iceberg, Delta Lake.
 
-Let's make serverless interactive query services more open, transparent, and performant.
+---
+
+## 📈 Sector Overview & Market Size
+
+> 💡 **Market Insights**: The global Cloud Analytics & Serverless Interactive Query Market is estimated at **~$35 Billion USD** and is projected to expand at a **CAGR of 22%**. The sector is **moderately concentrated** among tech hyperscalers (Google Cloud, AWS) and major data platforms (Snowflake, Databricks), alongside specialized managed query engine vendors (Starburst, ClickHouse Cloud, Dremio).
+
+---
+
+## ☁️ SaaS / Hosted Platforms
+
+Below is a comparison of leading commercial SaaS platforms offering serverless interactive query engines and cloud data warehouses, sorted by company size / valuation in descending order.
+
+| Platform / Vendor | Description & Use Case | Specific Starting Pricing | Free Tier / Trial Limits | Company Size (Valuation / Revenue) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Google Cloud BigQuery](https://cloud.google.com/bigquery)** | Serverless cloud data warehouse for petabyte-scale SQL analytics with built-in ML. | **$6.25 / TB scanned** (on-demand query pricing) or $0.04 / slot-hour. | **10 GB storage + 1 TB query scanning** per month forever free. | **~$2.0 Trillion** (Alphabet Inc. Market Cap) |
+| **[Amazon Athena](https://aws.amazon.com/athena/)** | AWS serverless interactive query service running SQL directly over S3 data lake files. | **$5.00 / TB scanned** (S3 query execution). | **10 GB/month scanner free** for 12 months via AWS Free Tier / $300 AWS trial credits. | **~$1.9 Trillion** (Amazon Inc. Market Cap) |
+| **[Ahana Cloud for Presto](https://ahana.io/)** *(IBM watsonx.data)* | Managed Presto platform for federated SQL queries across data lakes. | **$0.40 / vCPU-hour** (starting cluster compute). | **30-day free trial** with $200 credits on IBM Cloud. | **~$180 Billion** (IBM Market Cap) |
+| **[Snowflake](https://www.snowflake.com/)** | Cloud data platform with separated compute & storage, multi-cluster warehouses. | **~$2.00 / credit** (Standard Edition) + $23/TB-month storage. | **30-day free trial** with $400 worth of free credits. | **~$50 Billion** (Market Cap) |
+| **[Databricks SQL](https://www.databricks.com/)** | Lakehouse SQL analytics powered by Photon engine over Delta Lake, Parquet & Iceberg. | **$0.22 - $0.70 / DBU-hour** (SQL Pro at $0.55/DBU-hr + cloud infra). | **14-day free trial** on AWS, Azure, or GCP. | **~$43 Billion** (Private Valuation) |
+| **[ClickHouse Cloud](https://clickhouse.com/)** | Columnar analytical database with real-time ingestion & sub-second SQL queries. | **$0.016 / GB-mo storage** + $0.14 / GB-hr compute (min. ~$20/mo). | **30-day free trial** with $300 free credits. | **~$2.0 Billion** (Private Valuation) |
+| **[Starburst Galaxy](https://www.starburst.io/)** | Fully managed Trino platform for federated data mesh queries across heterogeneous databases. | **$0.60 / vCPU-hour** (Standard cluster execution). | **Free trial with $500** in usage credits. | **~$1.2 Billion** (Private Valuation) |
+| **[Dremio Cloud](https://www.dremio.com/)** | Apache Arrow-native lakehouse query engine with semantic layer. | **$0.39 / DCU-hour** (Dremio Compute Unit). | **Forever Free Tier** (up to 5 concurrent queries) + 100 free DCU credits. | **~$1.0 Billion** (Private Valuation) |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Sorted descending by GitHub star count ⭐.
+
+1. **[Apache Spark](https://github.com/apache/spark)** [![GitHub stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)  
+   Unified engine for large-scale data processing and SQL analytics over big data.
+
+2. **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** [![GitHub stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)  
+   High-performance open-source columnar analytical database for real-time SQL queries.
+
+3. **[Polars](https://github.com/pola-rs/polars)** [![GitHub stars](https://img.shields.io/github/stars/pola-rs/polars?style=social&color=white)](https://github.com/pola-rs/polars/stargazers)  
+   Lightning-fast DataFrame library written in Rust with lazy query evaluation.
+
+4. **[DuckDB](https://github.com/duckdb/duckdb)** [![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
+   In-process analytical SQL database engine designed for local and embedded analytics ("SQLite for OLAP").
+
+5. **[PrestoDB](https://github.com/prestodb/presto)** [![GitHub stars](https://img.shields.io/github/stars/prestodb/presto?style=social&color=white)](https://github.com/prestodb/presto/stargazers)  
+   Distributed SQL query engine for big data, original project initiated at Facebook.
+
+6. **[Apache Arrow](https://github.com/apache/arrow)** [![GitHub stars](https://img.shields.io/github/stars/apache/arrow?style=social&color=white)](https://github.com/apache/arrow/stargazers)  
+   Development platform for in-memory analytics with language-independent columnar memory format.
+
+7. **[Apache Doris](https://github.com/apache/doris)** [![GitHub stars](https://img.shields.io/github/stars/apache/doris?style=social&color=white)](https://github.com/apache/doris/stargazers)  
+   Real-time analytical database based on MPP architecture for fast sub-second SQL responses.
+
+8. **[Apache Druid](https://github.com/apache/druid)** [![GitHub stars](https://img.shields.io/github/stars/apache/druid?style=social&color=white)](https://github.com/apache/druid/stargazers)  
+   High-performance real-time analytics database built for streaming and batch event data.
+
+9. **[Trino](https://github.com/trinodb/trino)** [![GitHub stars](https://img.shields.io/github/stars/trinodb/trino?style=social&color=white)](https://github.com/trinodb/trino/stargazers)  
+   De facto open-source fast distributed SQL query engine for federated queries across 50+ data sources.
+
+10. **[StarRocks](https://github.com/StarRocks/starrocks)** [![GitHub stars](https://img.shields.io/github/stars/StarRocks/starrocks?style=social&color=white)](https://github.com/StarRocks/starrocks/stargazers)  
+    Next-generation sub-second MPP analytical database for real-time lakehouse analytics.
+
+11. **[Delta Lake](https://github.com/delta-io/delta)** [![GitHub stars](https://img.shields.io/github/stars/delta-io/delta?style=social&color=white)](https://github.com/delta-io/delta/stargazers)  
+    Open storage layer that brings ACID transactions and reliability to Apache Spark and big data workloads.
+
+12. **[Apache Iceberg](https://github.com/apache/iceberg)** [![GitHub stars](https://img.shields.io/github/stars/apache/iceberg?style=social&color=white)](https://github.com/apache/iceberg/stargazers)  
+    High-performance open table format for huge analytical datasets supporting time travel & schema evolution.
+
+13. **[Apache DataFusion](https://github.com/apache/datafusion)** [![GitHub stars](https://img.shields.io/github/stars/apache/datafusion?style=social&color=white)](https://github.com/apache/datafusion/stargazers)  
+    Extensible, fast, in-memory Rust SQL query engine foundation built on Apache Arrow.
+
+14. **[Apache Pinot](https://github.com/apache/pinot)** [![GitHub stars](https://img.shields.io/github/stars/apache/pinot?style=social&color=white)](https://github.com/apache/pinot/stargazers)  
+    Real-time distributed OLAP datastore designed for low-latency user-facing analytics.
+
+15. **[Apache Hive](https://github.com/apache/hive)** [![GitHub stars](https://img.shields.io/github/stars/apache/hive?style=social&color=white)](https://github.com/apache/hive/stargazers)  
+    Data warehouse software facilitating reading, writing, and managing large datasets residing in distributed storage.
+
+16. **[Apache Hudi](https://github.com/apache/hudi)** [![GitHub stars](https://img.shields.io/github/stars/apache/hudi?style=social&color=white)](https://github.com/apache/hudi/stargazers)  
+    Transactional data lake platform bringing stream processing capabilities to data lakes.
+
+17. **[Apache Calcite](https://github.com/apache/calcite)** [![GitHub stars](https://img.shields.io/github/stars/apache/calcite?style=social&color=white)](https://github.com/apache/calcite/stargazers)  
+    Dynamic data management framework featuring SQL parsing, optimization, and relational algebra.
+
+18. **[Apache Impala](https://github.com/apache/impala)** [![GitHub stars](https://img.shields.io/github/stars/apache/impala?style=social&color=white)](https://github.com/apache/impala/stargazers)  
+    Native MPP SQL query engine for Apache Hadoop providing low-latency queries on HDFS & Kudu.
+
+19. **[Apache Drill](https://github.com/apache/drill)** [![GitHub stars](https://img.shields.io/github/stars/apache/drill?style=social&color=white)](https://github.com/apache/drill/stargazers)  
+    Schema-free SQL query engine for Hadoop, NoSQL, and cloud storage systems.
+
+20. **[Project Nessie](https://github.com/projectnessie/nessie)** [![GitHub stars](https://img.shields.io/github/stars/projectnessie/nessie?style=social&color=white)](https://github.com/projectnessie/nessie/stargazers)  
+    Transactional catalog for Data Lakes offering Git-like branch and merge operations for Iceberg tables.
+
+21. **[Apache Kyuubi](https://github.com/apache/kyuubi)** [![GitHub stars](https://img.shields.io/github/stars/apache/kyuubi?style=social&color=white)](https://github.com/apache/kyuubi/stargazers)  
+    Distributed multi-tenant SQL gateway for data lakes running Spark, Flink, and Trino.
+
+22. **[Substrait](https://github.com/substrait-io/substrait)** [![GitHub stars](https://img.shields.io/github/stars/substrait-io/substrait?style=social&color=white)](https://github.com/substrait-io/substrait/stargazers)  
+    Cross-language, standardized relational algebra query plan specification.
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork the repo.
+2. Add or update entries in `README.md` following the tabular or bullet structure.
+3. Submit a Pull Request with factual context and links.
+4. Check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more awesome lists!
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Serverless-Interactive-Query-Service&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Serverless-Interactive-Query-Service&type=date&legend=top-left)
+
+---
+
+## ❤️ Support & Community
+
+Thank you for visiting **Awesome Serverless Interactive Query Service**! If you find this curated list valuable for your data engineering and analytics stack:
+
+- ⭐ **Star this repository** to help make serverless query engines more accessible.
+- 🔀 **Fork & Share** with colleagues, data teams, and open-source enthusiasts.
+- ☕ **Buy Me a Coffee**: Support ongoing open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for educational purposes.
+- Verify pricing, licensing (Apache-2.0, MIT, etc.), and SLAs directly on vendor websites before architecture deployment.
